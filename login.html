@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="apple-touch-icon-precomposed" href="assets/img/apple-touch-icon-precomposed.png">
+  <link rel="icon" href="assets/img/favicon.png">
+  <title>NS Reisverhalen - Login</title>
+  <!-- <link rel="stylesheet" href="assets/css/reset.min.css"> -->
+  <link rel="stylesheet" href="assets/css/fonts.css">
+  <!-- <link rel="stylesheet" href="assets/css/main.min.css"> -->
+  <link rel="stylesheet" href="assets/css/login.min.css">
+</head>
+
+<body>
+  <nav>
+    <section>
+      <a class="logo" href="index.html" title="NS"><img src="assets/img/nslogo.svg" alt="NS logo">
+        <h2>Login</h2>
+      </a>
+    </section>
+  </nav>
+
+  <div class="maxsize">
+    <main>
+      <article>
+        <h1>Welkom bij uw NS Reisverhalen account</h1>
+        <form>
+          <fieldset>
+            <legend>Inloggen</legend>
+
+            <div class="label-group">
+              <label for="email">E-mailadres</label>
+              <input type="email" id="email" required></div>
+
+            <div class="label-group">
+              <label for="password">Wachtwoord</label>
+              <input type="password" id="password" required></div>
+
+            <label><input type="submit" value="Inloggen"></label>
+            <button>Wachtwoord vergeten?</button>
+          </fieldset>
+        </form>
+
+        <div class="aanmaken">
+          <section>
+            <h2>Reisverhalen account aanmaken?</h2>
+          </section>
+          <ul>
+            <li>
+              <span>Bekijk uw favoriete verhalen</span>
+            </li>
+            <li>
+              <span>Verhalen geschikt voor elk device</span>
+            </li>
+            <li>
+              <span>Ongestoord genieten van uw reis</span>
+            </li>
+            <li>
+              <span>Uw persoonlijke account beheren</span>
+            </li>
+          </ul>
+          <button>Account aanmaken</button>
+        </div>
+        <form>
+          <h1>NS Reisverhalen-account aanmaken</h1>
+          <p>Vul de volgende gegevens in om uw NS Reisverhalen-account aan te maken.</p>
+          <fieldset>
+            <legend>Inloggegevens</legend>
+
+            <div class="label-group">
+              <label for="name">Naam</label>
+              <input type="text" id="name" name="name" required></div>
+
+
+            <div class="label-group">
+              <label for="email-new">E-mailadres</label>
+              <input type="email" id="email-new" name="email" required></div>
+
+
+            <div class="label-group">
+              <label for="email-confirm">Bevestig e-mailadres</label>
+              <input type="email" id="email-confirm" name="email" required></div>
+
+
+            <div class="label-group">
+              <label for="password2">Wachtwoord (minstens 4 tekens: waarvan 1 hoofdletter, 1 kleine letter en 1 cijfer)</label>
+              <input type="password" id="password2" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" title="Uw wachtwoord moet minimaal 4 tekens bevatten, waarvan minsters 1 hoofdletter, 1 kleine letter en 1 cijfer." min-length="4"></div>
+
+            <div class="label-group">
+              <label for="password-confirm">Bevestig Wachtwoord</label>
+              <input type="password" id="password-confirm" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,15}" title="Uw wachtwoord is niet hetzelfde" min-length="4"></div>
+
+
+            <label>
+              <input type="submit" value="Aanmaken" onclick="window.location='/index.html';">
+            </label>
+            <button>Annuleren</button>
+
+          </fieldset>
+        </form>
+      </article>
+    </main>
+
+  </div>
+
+</body>
+<script src="assets/js/script.js" type="text/javascript"></script>
+
+</html>

@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "NS Sans";
+  src: url(../fonts/nssans__-webfont.eot);
+  src: url(../fonts/nssans__-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/nssans__-webfont.woff) format("woff"), url(../fonts/nssans__-webfont.ttf) format("truetype"), url(../fonts/nssans__-webfont.svg#ns_sansregular) format("svg");
+  font-weight: 400;
+  font-style: normal
+}
+
+@font-face {
+  font-family: "NS Sans";
+  src: url(../fonts/nssanita-webfont.eot);
+  src: url(../fonts/nssanita-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/nssanita-webfont.woff) format("woff"), url(../fonts/nssanita-webfont.svg#ns_sansitalic) format("svg");
+  font-weight: 400;
+  font-style: italic
+}
+
+@font-face {
+  font-family: "NS Sans";
+  src: url(../fonts/nssanbit-webfont.eot);
+  src: url(../fonts/nssanbit-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/nssanbit-webfont.woff) format("woff"), url(../fonts/nssanbit-webfont.ttf) format("truetype"), url(../fonts/nssanbit-webfont.svg#ns_sansbold_italic) format("svg");
+  font-weight: 700;
+  font-style: italic
+}
+
+@font-face {
+  font-family: "NS Sans";
+  src: url(../fonts/nssanbol-webfont.eot);
+  src: url(../fonts/nssanbol-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/nssanbol-webfont.woff) format("woff"), url(../fonts/nssanbol-webfont.ttf) format("truetype"), url(../fonts/nssanbol-webfont.svg#ns_sansbold) format("svg");
+  font-weight: 700;
+  font-style: normal
+}
+
+@font-face {
+  font-family: "Lato Light";
+  src: url("../fonts/Lato Light.eot");
+  src: url("../fonts/Lato Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Lato Light.woff2") format("woff2"),
+    url("../fonts/Lato Light.woff") format("woff"),
+    url("../fonts/Lato Light.ttf") format("truetype"),
+    url("../fonts/Lato Light.svg#Lato Light") format("svg");
+}
+
+@font-face {
+  font-family: "Lato Regular";
+  src: url("../fonts/Lato Regular.eot");
+  src: url("../fonts/Lato Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Lato Regular.woff2") format("woff2"),
+    url("../fonts/Lato Regular.woff") format("woff"),
+    url("../fonts/Lato Regular.ttf") format("truetype"),
+    url("../fonts/Lato Regular.svg#Lato Regular") format("svg");
+}
+
+@font-face {
+  font-family: "Lato Black";
+  src: url("../fonts/Lato Black.eot");
+  src: url("../fonts/Lato Black.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Lato Black.woff2") format("woff2"),
+    url("../fonts/Lato Black.woff") format("woff"),
+    url("../fonts/Lato Black.ttf") format("truetype"),
+    url("../fonts/Lato Black.svg#Lato Black") format("svg");
+}
+
+@font-face {
+  font-family: "Rotis Serif 55";
+  src: url("../fonts/Rotis Serif 55.eot");
+  src: url("../fonts/Rotis Serif 55.eot?#iefix") format("embedded-opentype"), url("../fonts/Rotis Serif 55.woff2") format("woff2"), url("../fonts/Rotis Serif 55.woff") format("woff"), url("../fonts/Rotis Serif 55.ttf") format("truetype"), url("../fonts/Rotis Serif 55.svg#Rotis Serif 55") format("svg");
+}
+
+@font-face {
+  font-family: "Rotis SemiSans Light 45";
+  src: url("../fonts/Rotis SemiSans Light 45.eot");
+  src: url("../fonts/Rotis SemiSans Light 45.eot?#iefix") format("embedded-opentype"), url("../fonts/Rotis SemiSans Light 45.woff2") format("woff2"), url("../fonts/Rotis SemiSans Light 45.woff") format("woff"), url("../fonts/Rotis SemiSans Light 45.ttf") format("truetype"), url("../fonts/Rotis SemiSans Light 45.svg#Rotis SemiSans Light 45") format("svg");
+}
+
+@font-face {
+  font-family: "Rotis SemiSans Bold 65";
+  src: url("../fonts/Rotis SemiSans Bold 65.eot");
+  src: url("../fonts/Rotis SemiSans Bold 65.eot?#iefix") format("embedded-opentype"), url("../fonts/Rotis SemiSans Bold 65.woff2") format("woff2"), url("../fonts/Rotis SemiSans Bold 65.woff") format("woff"), url("../fonts/Rotis SemiSans Bold 65.ttf") format("truetype"), url("../fonts/Rotis SemiSans Bold 65.svg#Rotis SemiSans Bold 65") format("svg");
+}
