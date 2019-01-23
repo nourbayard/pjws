@@ -200,7 +200,7 @@ form:nth-of-type(2) fieldset {
   }
 
   button:before {
-    content: url("../img/arrow-blue.svg");
+    content: url("assets/img/arrow-blue.svg");
     vertical-align: -64%;
   }
 
@@ -217,7 +217,7 @@ form:nth-of-type(2) fieldset {
     }
 
     span:before {
-      content: url("../img/iconmonstr-check-mark-17.svg");
+      content: url("assets/img/iconmonstr-check-mark-17.svg");
       position: relative;
       display: inline-block;
       margin-top: 0.1rem;
