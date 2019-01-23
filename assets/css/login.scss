@@ -217,7 +217,7 @@ form:nth-of-type(2) fieldset {
     }
 
     span:before {
-      content: url("assets/img/iconmonstr-check-mark-17.svg");
+      content: url("../img/iconmonstr-check-mark-17.svg");
       position: relative;
       display: inline-block;
       margin-top: 0.1rem;
@@ -323,7 +323,7 @@ input[type="submit"] {
   border: none!important;
   text-decoration: none;
   transition: background-color 0.15s ease-in-out;
-  background: url("assets/img/white-arrow.svg") #0079D3 no-repeat;
+  background: url("../img/white-arrow.svg") #0079D3 no-repeat;
   background-position: 94% center;
   font-weight: 300;
   font-size: 1rem;
