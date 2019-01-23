@@ -200,7 +200,7 @@ form:nth-of-type(2) fieldset {
   }
 
   button:before {
-    content: url("/assets/img/arrow-blue.svg");
+    content: url("assets/img/arrow-blue.svg");
     vertical-align: -64%;
   }
 
@@ -323,7 +323,7 @@ input[type="submit"] {
   border: none!important;
   text-decoration: none;
   transition: background-color 0.15s ease-in-out;
-  background: url("/assets/img/white-arrow.svg") #0079D3 no-repeat;
+  background: url("assets/img/white-arrow.svg") #0079D3 no-repeat;
   background-position: 94% center;
   font-weight: 300;
   font-size: 1rem;
