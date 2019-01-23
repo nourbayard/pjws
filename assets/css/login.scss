@@ -79,7 +79,6 @@ nav {
       text-decoration: none;
 
       h2 {
-        // display: none !important;
         text-shadow: none;
         display: inline-block;
         margin: 0 1rem;
@@ -95,7 +94,6 @@ main {
   max-width: 75rem;
   display: block;
   padding: 1.5rem;
-  // border: 1px solid black;
   margin-top: 1rem;
   background: white;
   color: #003082;
@@ -183,7 +181,6 @@ form:nth-of-type(2) fieldset {
 }
 
 .aanmaken {
-  // border: 3px solid orange;
   padding: 0.5rem 1rem 1rem 1.5rem;
   margin: 2rem 0 0;
 
@@ -209,7 +206,7 @@ form:nth-of-type(2) fieldset {
 
   ul {
     padding: 0;
-    // display: grid;
+
     li {
       line-height: 1.563rem;
       min-height: 2.188rem;
@@ -228,7 +225,6 @@ form:nth-of-type(2) fieldset {
     }
 
     span {
-      // dit zijn die lijst dingen
       width: 1rem;
       margin-top: 0.3125rem;
       vertical-align: top;
@@ -262,10 +258,6 @@ form:last-child {
 }
 /* ==================== MEDIA QUERIES ==================== */
 @media screen and (min-width: 46rem) {
-  body {
-    // background: lightblue;
-  }
-
   main {
     padding: 3rem;
   }
@@ -352,10 +344,6 @@ input[type="submit"]:hover {
   box-shadow: 0 -0.125rem 0 #005CA0 inset;
 }
 @media screen and (min-width: 48.7rem) {
-  body {
-    // background-color: orange;
-  }
-
   form:nth-of-type(1) {
     button,
     fieldset > label {
@@ -370,10 +358,6 @@ input[type="submit"]:hover {
   }
 }
 @media screen and (min-width: 60rem) {
-  body {
-    // background-color: red;
-  }
-
   main {
     padding: 3rem 4rem;
   }
@@ -417,16 +401,6 @@ input[type="submit"]:hover {
     .label-group input {
       width: 63%!important;
     }
-  }
-}
-@media screen and (min-width: 64rem) {
-  body {
-    // background-color: lightgreen;
-  }
-}
-@media screen and (min-width: 75rem) {
-  body {
-    // background-color: pink;
   }
 }
 /* ==================== MEDIA QUERIES END ==================== */
